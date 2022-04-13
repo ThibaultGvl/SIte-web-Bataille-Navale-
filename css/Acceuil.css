@@ -35,6 +35,8 @@ header.masthead h1, header.masthead .h1 {
 .showcase .showcase-img {
   min-height: 30rem !important;
   background-size: cover !important;
+  max-width : 100%;
+  display: block;
 }
 @media (min-width: 768px) {
   .showcase .showcase-text {
@@ -43,7 +45,7 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .img1 {
-  background-image: url('../images/histoire_bataille_navale.jpg') !important;
+  background-image: url('../images/bataille_navale_histoire.jpg') !important;
 }
 
 .img2 {

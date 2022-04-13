@@ -11,6 +11,10 @@ header.masthead {
     height: 20px !important;
 }
 
+.image_design {
+  max-width: 100% !important;
+}
+
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
