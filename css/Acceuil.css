@@ -1,0 +1,60 @@
+header.masthead {
+  position: relative !important;
+  background-color: #343a40 !important;
+  background: url("../images/bg-masthead.jpg") no-repeat center center !important;
+  background-size: cover !important;
+  padding-top: 8rem !important;
+  padding-bottom: 8rem !important;
+}
+header.masthead:before {
+  content: "" !important;
+  position: absolute !important;
+  background-color: #1c375e !important;
+  height: 100% !important;
+  width: 100% !important;
+  top: 0 !important;
+  left: 0 !important;
+  opacity: 0.5 !important;
+}
+header.masthead h1, header.masthead .h1 {
+  font-size: 2rem !important;
+}
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 12rem !important;
+    padding-bottom: 12rem !important;
+  }
+  header.masthead h1, header.masthead .h1 {
+    font-size: 3rem !important;
+  }
+}
+
+.showcase .showcase-text {
+  padding: 3rem !important;
+}
+.showcase .showcase-img {
+  min-height: 30rem !important;
+  background-size: cover !important;
+}
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem !important;
+  }
+}
+
+.img1 {
+  background-image: url('../images/histoire_bataille_navale.jpg') !important;
+}
+
+.img2 {
+  background-image: url('../images/image_jeu.png') !important;
+}
+
+.img3 {
+  background-image: url('../images/code_image.png') !important;
+}
+
+footer.footer {
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
+}

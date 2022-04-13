@@ -1,0 +1,17 @@
+header.masthead {
+    position: relative;
+    background-color: #343a40;
+    background: url("../images/bg-masthead.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+#play_btn {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
