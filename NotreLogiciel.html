@@ -63,7 +63,7 @@
 					<section>
 						<h3>L'interface</h3>
 						<div class="col-sm-12 bg-danger"></div>
-						<img class="img-responsive mx-auto d-block image_design" src="./images/image_jeu.png" alt=""/>
+						<img class="img-responsive mx-auto d-block image1" src="./images/image_jeu.png" alt=""/>
 					<p>
 						Le design de notre bataille navale a été entierement conçu sur tablette graphique, derrière celui-ci l'objectif de créer une bataille navale originale différente de toutes celle que l'on a pour habitude de croiser.
 						Ce design a pour but de vous ramener dans votre enfance et dans le souvenir de vos plus belle bataille ! L'image de fond est une feuille à carreaux, et le plateau de jeu est une grille dessinée sur les carreaux. Les carreaux qui composent la feuille sont en faite des images, les cases de la grille sont en faite créés par des images représentant des traits. Pour les ajouter dans le code nous avons simplement utilisé des boucles imbriquées pour créer le fond et les cases de la grille. Les bateaux sont des rectangles contenant des ronds, vous pouvez constater le rendu ci-dessus. 
@@ -72,10 +72,11 @@
 					</section>
 					<h3>Le code</h3>
 					<div class="col-sm-12 bg-danger"></div>
+					<img class="img-responsive mx-auto d-block image2" src="./images/fonction_code.png" alt="">
 					<p>
 						Pour mener à bien cette bataille navale nous avons développé différentes fonctionnalités, premièrement nous avons dû créer intégrer notre design au code comme ceci a été expliqué ci-dessus. Ensuite nous avons donc stocké les informations de la grille du joueur et de celle de l'ordinateur dans des matrices.
 						Une fois ceci fait nous avons developpé le placement manuel des bateau celui-ci s'effectue avec un glisser-déposser s'effectuant par un clic gauche maintenu, nous nous sommes arrangés pour que le déplacement des bateaux s'adapte à la taille des carreaux, il est aussi possible de changer la position d'un bateau avec un clic droit.
-						Pour réaliser ceci nous avons placer des "écouteurs" nous permettant de détécter les actions de l'utilisateur et de déclancher des fonctions en réponse à ces évènements. Nous avons agis de la même manière au tour du joueur 1, une image jaune se créé sous la souris du joueur lorsqu'il peut tiré à l'endroit où est placcé son curseur.
+						Pour réaliser ceci nous avons placer des "écouteurs" nous permettant de détécter les actions de l'utilisateur et de déclancher des fonctions en réponse à ces évènements. En effet, pour le glisser-déposser par exemple nous recréons l'image du bateau en dessous de la souris lorsque le mouvement de glisser est détécté. Nous avons agis de la même manière au tour du joueur 1, une image jaune se créé sous la souris du joueur lorsqu'il peut tiré à l'endroit où est placcé son curseur.
 						Une autre fonction clef de notre programme et probablement la plus difficile de ce programme a été l'intelligence artificielle. Pour coder celle-ci nous avons créé un support "grille de reflexion" qui comme son nom l'indique représente une grille, celle-ci est codée sous forme de matrice et représente les informations de la grille adverse dont dispose l'ordinateur.
 						De base la grille de réfléxion est pleine de 2, ce chiffre indique que l'ordinateur ne sais pas ce qui se trouve à cette position. Pour être plus précis : si un 0 est stocké dans cette case celà signifie que cette case "n'intéresse pas" l'ordinateur car elle à été découverte par ce dernier et qu'elle contient soit un bateau coulé soit un tir raté et que cette case est donc vide d'intérêt pour lui. Si la matrice contient un 1 à un endroit celà signifie qu'un bateau touché (et pas coulé !) s'y trouve et donc qu'il doit trouver les autres bouts de celui-ci
 						qui sont autour, à noter que l'IA tient compte de l'orientation et suivra donc la direction la plus évidente.

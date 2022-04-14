@@ -7,8 +7,16 @@ header.masthead {
     padding-bottom: 8rem !important;
 }
 
-.image_design {
-  max-width:50% !important;
+.image1 {
+  max-width: 100% !important;
+  width: 500px !important;
+  height: 250px !important;
+  margin: 10px !important;
+}
+
+.image2 {
+  max-width: 100% !important;
+  margin: 10px !important;
 }
 
 footer.footer {

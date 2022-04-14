@@ -35,21 +35,22 @@ header.masthead h1, header.masthead .h1 {
 .showcase .showcase-img {
   min-height: 30rem !important;
   background-size: cover !important;
-  max-width : 100%;
-  display: block;
 }
 @media (min-width: 768px) {
-  .showcase .showcase-text {
+  .showcase .showcase-text .showcase-img {
     padding: 7rem !important;
+    width: auto !important;
   }
 }
 
 .img1 {
   background-image: url('../images/bataille_navale_histoire.jpg') !important;
+  max-width: 100%;
 }
 
 .img2 {
   background-image: url('../images/image_jeu.png') !important;
+  max-width: 50%;
 }
 
 .img3 {
