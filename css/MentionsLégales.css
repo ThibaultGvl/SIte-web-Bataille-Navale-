@@ -3,3 +3,8 @@ footer.footer {
     padding-top: 4rem !important;
     padding-bottom: 4rem !important;
   }
+
+/* Changement du type de la police */
+body {
+  font-family: 'Roboto Slab', serif !important;
+}
