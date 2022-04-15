@@ -6,13 +6,14 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 		    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/Contact.css" type="text/css"/>
-        <link rel="icon" href="images/icone.png">
+        <link rel="stylesheet" href="../css/Contact.css" type="text/css"/>
+        <link rel="icon" href="../images/icone.png">
     </head>
     <body>
+      <!--Barre de navigation-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="Accueil.html">
-            <img src="./images/icone.png" width="40" height="30" alt="Site logo">
+          <a class="navbar-brand" href="../Accueil.html">
+            <img src="../images/icone.png" width="40" height="30" alt="Site logo">
             Bataille Navale
            </a>
            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,6 +34,7 @@
 			  </ul>
 			</div>
 		  </nav>
+      <!--Formulaire de contact sous forme de card-->
         <div class="container">
           <div class="row">
             <div class="col-xs-12 align-middle">
@@ -42,28 +44,33 @@
                 <h2>Remplissez ce formulaire !</h2>
                 <form method=post enctype="text/plain" action="mailto:thibaultgrivel1@gmail.com">
                   <div class="form-group">
-                           <label for="name">Nom</label> 
-                           <input id="name" type="text" class="form-control" name="Nom" placeholder="Entrer votre nom">
+                    <label for="name">Nom</label> 
+                    <input id="name" type="text" class="form-control input100" autofocus="autofocus"  name="Nom" placeholder="Entrer votre nom">
+                    <span class="focus-input100"></span>
                   </div>
                   
                   <div class="form-group">
                     <label for="surname">Prenom</label> 
-                    <input id="surname" type="text" class="form-control" name="Prenom" placeholder="Entrer votre prenom">
+                    <input id="surname" type="text" class="form-control input100" name="Prenom" placeholder="Entrer votre prenom">
+                    <span class="focus-input100"></span>
                   </div>
           
                   <div class="form-group">
-                           <label for="mail">Email</label> 
-                           <input id="mail" type="email" class="form-control" name="email" placeholder="Entrer votre mail">
+                    <label for="mail">Email</label> 
+                    <input id="mail" type="email" class="form-control input100" name="email" placeholder="Entrer votre mail">
+                    <span class="focus-input100"></span>
                   </div>
 
                   <div class="form-group">
                     <label for="objet">Objet</label> 
-                    <input id="objet" type="text" class="form-control" name="objet" placeholder="Rédiger votre commentaire">
+                    <input id="objet" type="text" class="form-control input100" name="objet" placeholder="Définissez l'objet de votre commentaire">
+                    <span class="focus-input100"></span>
                   </div>
 
                   <div class="form-group">
                     <label for="commentaire">Commentaire</label> 
-                    <input id="commentaire" type="text" class="form-control" name="Commentaire" placeholder="Rédiger votre commentaire">
+                    <input id="commentaire" type="text" class="form-control input100" name="Commentaire" placeholder="Rédiger votre commentaire">
+                    <span class="focus-input100"></span>
                   </div>
                   <div class="button">
                   <button type="submit" class="btn btn-outline-success float-right">Valider</button>
@@ -74,13 +81,14 @@
               </div>
             </div>
           </div>
+          <!--Pied de page-->
           <footer class="footer bg-light">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
                         <ul class="list-inline mb-2">
                             <li class="list-inline-item">⋅</li>
-                            <li class="list-inline-item"><a href="./Contact.html">Nous contacter</a></li>
+                            <li class="list-inline-item"><a href="Contact.html">Nous contacter</a></li>
                             <li class="list-inline-item">⋅</li>
                             <li class="list-inline-item"><a href="MentionsLégales.html">Mentions Légales</a></li>
                             <li class="list-inline-item">⋅</li>

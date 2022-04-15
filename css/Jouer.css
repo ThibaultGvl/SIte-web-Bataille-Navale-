@@ -1,3 +1,4 @@
+/* Personnalisation de l'en-tête */
 header.masthead {
     position: relative;
     background-color: #343a40;
@@ -6,15 +7,19 @@ header.masthead {
     padding-top: 8rem;
     padding-bottom: 8rem;
   }
+
+/* Modification de la taille de l'image */
 #play_btn {
     width: 20px !important;
     height: 20px !important;
 }
 
+/* Personnalisation de l'image pour qu'elle soit responsive */
 .image_design {
   max-width: 100% !important;
 }
 
+/* Personnalisation du footer */
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;

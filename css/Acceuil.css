@@ -1,3 +1,4 @@
+/* Personnalisation de l'en-tête */
 header.masthead {
   position: relative !important;
   background-color: #343a40 !important;
@@ -29,6 +30,7 @@ header.masthead h1, header.masthead .h1 {
   }
 }
 
+/* Personnalisation du corps de page */
 .showcase .showcase-text {
   padding: 3rem !important;
 }
@@ -45,18 +47,17 @@ header.masthead h1, header.masthead .h1 {
 
 .img1 {
   background-image: url('../images/bataille_navale_histoire.jpg') !important;
-  max-width: 100%;
 }
 
 .img2 {
   background-image: url('../images/image_jeu.png') !important;
-  max-width: 50%;
 }
 
 .img3 {
   background-image: url('../images/code_image.png') !important;
 }
 
+/* Personnalisation du footer */
 footer.footer {
   padding-top: 4rem !important;
   padding-bottom: 4rem !important;

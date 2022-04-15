@@ -1,3 +1,4 @@
+/* Personnalisation de l'en-tête */
 header.masthead {
     position: relative !important;
     background-color: #343a40 !important;
@@ -7,6 +8,7 @@ header.masthead {
     padding-bottom: 8rem !important;
 }
 
+/* Personnalisation des images */
 .image1 {
   max-width: 100% !important;
   width: 500px !important;
@@ -19,6 +21,7 @@ header.masthead {
   margin: 10px !important;
 }
 
+/* Personnalisation du footer */
 footer.footer {
     padding-top: 4rem !important;
     padding-bottom: 4rem !important;
